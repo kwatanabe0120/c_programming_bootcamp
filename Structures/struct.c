@@ -6,15 +6,25 @@ struct point
 	int y;
 };
 
+struct date
+{
+	int day;
+	int month;
+	int year;
+};
+
 int main()
 {
-	struct point p1;
-	printf("Enter x: ");
-	scanf("%d", &p1.x);
-	printf("Enter y: ");
-	scanf("%d", &p1.y);
+	struct date graduateDate;
+	printf("Enter year: ");
+	scanf("%d", &graduateDate.year);
+	printf("Enter month: ");
+	scanf("%d", &graduateDate.month);
+	printf("Enter day: ");
+	scanf("%d", &graduateDate.day);
 
-	printf("The point is (%d, %d)", p1.x, p1.y);
+
+	printf("The Graduation day is %d/%d/%d", graduateDate.year, graduateDate.month, graduateDate.day);
 
 	
 	return 0;
