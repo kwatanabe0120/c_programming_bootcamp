@@ -1,0 +1,3 @@
+Hello
+I am learning C programming language.
+This is very difficult but fun.
